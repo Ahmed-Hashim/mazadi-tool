@@ -28,12 +28,10 @@ if 'SECRET_KEY' in os.environ:
 
 ALLOWED_HOSTS = ["*","mazadi-tool-production.up.railway.app"]
 CORS_ALLOWED_ORIGINS = [
-    "*",
-    "mazadi-tool-production.up.railway.app",
+    "https://mazadi-tool-production.up.railway.app",
 ]
 CSRF_TRUSTED_ORIGINS = [
-    "*",
-    "mazadi-tool-production.up.railway.app",
+    "https://mazadi-tool-production.up.railway.app",
     ]
 
 
