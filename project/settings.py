@@ -40,7 +40,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     "bootstrap4",
     'crispy_forms',
-    'django_crontab',
 
 
     #myapps
@@ -78,9 +77,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'project.wsgi.application'
 
-CRONJOBS = [
-    ('*/1 * * * *', 'posts.cron.mada')
-]
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
