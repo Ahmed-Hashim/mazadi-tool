@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-6t33=)=ilc9@j6t+@+vxl9l5$1c*tubga=o)0_k5tq2l(_i$qg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["192.168.1.2","mazadi-tool-production.up.railway.app"]
+ALLOWED_HOSTS = ["mazadi-tool-production.up.railway.app"]
 
 
 # Application definition
@@ -77,9 +77,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'project.wsgi.application'
 
-CRONJOBS = [
-    ('*/1 * * * *', 'posts.cron.mada')
-]
+
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
