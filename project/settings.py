@@ -26,8 +26,15 @@ if 'SECRET_KEY' in os.environ:
     SECRET_KEY = os.environ['SECRET_KEY']
     DEBUG = False
 
-ALLOWED_HOSTS = ["*","mazadi-tool-production.up.railway.app/"]
-
+ALLOWED_HOSTS = ["*","mazadi-tool-production.up.railway.app"]
+CORS_ALLOWED_ORIGINS = [
+    "*",
+    "mazadi-tool-production.up.railway.app",
+]
+CSRF_TRUSTED_ORIGINS = [
+    "*",
+    "mazadi-tool-production.up.railway.app",
+    ]
 
 
 # Application definition
