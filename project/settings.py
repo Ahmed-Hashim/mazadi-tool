@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-6t33=)=ilc9@j6t+@+vxl9l5$1c*tubga=o)0_k5tq2l(_i$qg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["192.168.1.2","*"]
+ALLOWED_HOSTS = ["192.168.1.2","mazadi-tool-production.up.railway.app"]
 
 
 # Application definition
@@ -132,8 +132,8 @@ STATICFILES_DIRS= [
 ]
 #STATIC_ROOT=BASE_DIR / 'staticfiles'
 MEDIA_URL='media/'
-STATIC_ROOT = '/static/'
-MEDIA_ROOT = '/media/'
+STATIC_ROOT = 'static/'
+MEDIA_ROOT = 'media/'
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 
 # Default primary key field type
