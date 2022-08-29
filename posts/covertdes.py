@@ -109,7 +109,7 @@ def layout(name):
   # font = ImageFont.truetype(<font-file>, <font-size>)
     
   # draw.text((x, y),"Sample Text",(r,g,b))
-    draw.text((imageLeft/2-25, imageTop+28),"حمل التطبيق الان",(0, 0, 0),font=font)
+    draw.text((imageLeft/2-25, imageTop+28),"حمل التطبيق الان",(0, 0, 0),font=unicode_font)
     apple.save(name)
   return
 #downimg('https://cdn.pixabay.com/photo/2010/12/13/10/05/berries-2277__340.jpg')
