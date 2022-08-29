@@ -100,7 +100,7 @@ def layout(name):
     font = ImageFont.truetype("Fonts/stv-bold.ttf", 25)
     blurred = Image.new('RGBA', apple.size)
     draw = ImageDraw.Draw(blurred)
-    draw.text((imageLeft/2+60, imageTop+40), text=u"حمل التطبيق الان", fill='gray' , font=unicode_font, anchor='mm')
+    draw.text((imageLeft/2+60, imageTop+40), text="ﻥﻻﺍ ﻖﻴﺒﻄﺘﻟﺍ ﻞﻤﺣ", fill='gray' , font=unicode_font, anchor='mm')
     blurred = blurred.filter(ImageFilter.BoxBlur(10))
 
   # Paste soft text onto background
@@ -109,7 +109,7 @@ def layout(name):
   # font = ImageFont.truetype(<font-file>, <font-size>)
     
   # draw.text((x, y),"Sample Text",(r,g,b))
-    draw.text((imageLeft/2-25, imageTop+28),"حمل التطبيق الان",(0, 0, 0),font=unicode_font)
+    draw.text((imageLeft/2-25, imageTop+28)," ﻥﻻﺍ ﻖﻴﺒﻄﺘﻟﺍ ﻞﻤﺣ",(0, 0, 0),font=unicode_font)
     apple.save(name)
   return
 #downimg('https://cdn.pixabay.com/photo/2010/12/13/10/05/berries-2277__340.jpg')
